@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+textarea{
+    margin-top: 10px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    border-radius: 4px;
+    
+}
+.posts{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
